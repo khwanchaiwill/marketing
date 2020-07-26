@@ -376,9 +376,12 @@ h2 {
 }
 
 
+/* END TEAM DESIGN */
 
 
-/* RESPONSIVE DESIGN */
+
+
+/* RESPONSIVE DESIGN HOME */
 
 @media (max-width: 1000px) {
 
@@ -522,6 +525,69 @@ h2 {
         margin-top: -5%;
     }
 }
+
+/* RESPONSIVE DEISGN TEAM */
+
+@media (max-width: 1000px) {
+
+    .container2 {
+        height: 95rem;
+    }
+
+}
+
+@media (max-width: 800px) {
+
+    .container2 #header {
+        margin-left: 48%;
+        margin-bottom: 10%;
+    }
+
+    .container2 h1 {
+        font-size: 2.4rem;
+    }
+
+    .container2 {
+        height: 76rem;
+    }
+
+}
+
+
+@media (max-width: 500px) {
+
+    .container2 {
+        height: 123rem;
+    }
+
+    .container2 #header {
+        margin-left: 0%;
+    }
+
+    .container2 h1 {
+        font-size: 1.5rem;
+    }
+
+    .container2 h2 {
+        font-size: 1rem;
+    }
+    
+    .container2 p {
+        font-size: 0.7rem;
+    }
+
+    #teamheader {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .teamimg1, .teamimg2, .teamimg3, .teamimg4, .teamimg5, .teamimg6, .teamimg7 {
+        width: 100%;
+    }
+
+}
+
 
 
 
