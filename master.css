@@ -1,0 +1,257 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,900");
+
+/* RESET CSS */
+
+html, body, div, span, applet, object,
+iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
+pre, a, abbr, acronym, address, big, cite,
+code, del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, b,
+u, i, center, dl, dt, dd, ol, ul, li, fieldset,
+form, label, legend, table, caption, tbody,
+tfoot, thead, tr, th, td, article, aside,
+canvas, details, embed, figure, figcaption,
+footer, header, hgroup, menu, nav, output, ruby,
+section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;}
+
+body {
+	line-height: 1;
+}
+
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+	blockquote:before, blockquote:after, q:before, q:after {
+		content: '';
+		content: none;
+	}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+	-webkit-text-size-adjust: none;
+}
+
+mark {
+	background-color: transparent;
+	color: inherit;
+}
+
+input::-moz-focus-inner {
+	border: 0;
+	padding: 0;
+}
+
+input, select, textarea {
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	-ms-appearance: none;
+	appearance: none;
+}
+
+
+/* END RESET */
+
+
+/* GENERIC */
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    height: auto;
+    background-color: #636664;
+}
+
+.container {
+    background-image: url("https://images.unsplash.com/photo-1503457574462-bd27054394c1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80");
+    height: 50rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+
+/* HEADER */
+
+.container #header {
+    margin-left: 60rem;
+    margin-bottom: 6rem;
+    height: 3rem;
+    padding-top: .7rem;
+    letter-spacing: 0.075em;
+    right: 1.5em;
+    text-transform: uppercase;
+    top: 0.75em;
+}
+
+#nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+header a,
+.dropdown {
+    text-decoration: none;
+}
+
+a:hover {
+    border-bottom-color: transparent;
+    text-decoration: none;
+}
+
+#welcome {
+    font-weight: bolder;
+    color: white;
+    font-size: 1.1rem;
+    text-decoration: none;
+}
+
+#menu {
+    color: white;
+    font-size: 1.1rem;
+    text-decoration: none;
+}
+
+#signup {
+    display: flex;
+    border: 1px solid rgb(172, 189, 178);
+    color: white;
+    text-decoration: none;
+    background: rgb(68, 104, 82);
+    width: 25%;
+    height: 2.5rem;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+
+/* DROP DOWN */
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+/* HEADER BANNER */
+
+#headbanner {
+    display: flex;
+    flex-direction: column;
+    margin: 0% 36% 16%;
+    height: 60%;
+    background: rgba(55, 90, 66, 0.616);
+    padding-top: 4.5rem;
+    font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+}
+
+h1 {
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    font-size: 5rem;
+    font-weight: bolder;
+    letter-spacing: 0.1em;
+    border-top: 2px dotted white;
+    border-bottom: 2px dotted white;
+    margin: 0% 15%;
+}
+
+#headbanner p {
+    padding: 10% 15%;
+    text-align: center;
+    font-size: 1.9rem;
+    text-transform: uppercase;
+    color: white;
+}
+
+.explore {
+    display: flex;
+    border: 3px solid rgb(172, 189, 178);
+    color: white;
+    text-decoration: none;
+    background: rgba(55, 90, 66, 0.616);
+    width: 70%;
+    height: 3rem;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin: 0% 15%;
+}
+
+
+/* IMG GRID STYLING */
+
+#bodyblock {
+    background-color: rgb(233, 233, 233);
+    margin: 0% 10%;
+    /* height: 90%; */
+}
+
+#bodyp {
+    padding-top: 5%;
+    margin: 0% 10% 5%;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: lighter;
+}
+
+.strong {
+    font-weight: bolder;
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#img1, #img2, #img3, #img4 {
+    width: 38%;
+    margin-bottom: 5%;
+}
