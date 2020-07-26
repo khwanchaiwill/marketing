@@ -102,10 +102,10 @@ body {
 /* HEADER */
 
 .container #header {
-    margin-left: 60rem;
-    margin-bottom: 6rem;
-    height: 3rem;
-    padding-top: .7rem;
+    margin-left: 65%;
+    margin-bottom: 6%;
+    height: 3%;
+    padding-top: .7%;
     letter-spacing: 0.075em;
     right: 1.5em;
     text-transform: uppercase;
@@ -185,7 +185,7 @@ a:hover {
     margin: 0% 36% 16%;
     height: 60%;
     background: rgba(55, 90, 66, 0.616);
-    padding-top: 4.5rem;
+    padding-top: 4.5%;
     font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
 }
 
@@ -271,17 +271,69 @@ h1 {
 
 /* RESPONSIVE DESIGN */
 
-@media (max-width: 1000px) {
+@media (max-width: 2560px) {
+    .container {
+        height: 75rem;
+    }
 
-    .container #header {
-        margin-left: 55%;
+    #welcome {
+        font-size: 2rem;
+    }
+    
+    #menu {
+        font-size: 2rem;
+    }
+    
+    #signup {
+        width: 30%;
+        height: 3.5rem;
+        font-size: 2rem;
     }
 
     #headbanner {
-        margin: 0% 26% 25%;
-        height: 60%;
+        margin: 0% 30% 10%;
+        height: 75%;
+        padding-top: 4.5rem;
+    }
+
+    h1 {
+        font-size: 10rem;
+        margin-top: 3%;
+    }
+
+    #headbanner p {
+        font-size: 4rem;
+    }
+
+    .explore {
+        width: 60%;
+        height: 5rem;
+        margin: 0% 20%;
+    }
+
+
+}
+
+@media (max-width: 1000px) {
+
+    .container {
+        height: 44rem;
+    }
+
+    .container #header {
+        margin-left: 55%;
+        margin-bottom: 10%;
+    }
+
+    #headbanner {
+        margin: 0% 30% 20%;
+        height: 70%;
         background: rgba(55, 90, 66, 0.616);
         padding-top: 4.5rem;
+    }
+
+    #bodyp {
+        font-size: 1.2rem;
     }
 
 }
@@ -291,17 +343,23 @@ h1 {
 
     .container #header {
         margin-left: 48%;
+        margin-bottom: 5%;
+    }
+
+    #headbanner {
+        margin: 0% 25% 25%;
+        height: 60%;
     }
 
     h1 {
         font-size: 4rem;
-        margin-top: 7%;
+        margin-top: 3%;
     }
 
     #headbanner p {
         padding: 10% 15%;
         text-align: center;
-        font-size: 1.4rem;
+        font-size: 1.3rem;
     }
 
     .container #header {
@@ -317,11 +375,7 @@ h1 {
 @media (max-width: 500px) {
 
     .container {
-        background-image: url("https://images.unsplash.com/photo-1503457574462-bd27054394c1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80");
         height: 40rem;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
     }
 
     .container #header {
