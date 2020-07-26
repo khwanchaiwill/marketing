@@ -274,27 +274,43 @@ h1 {
 @media (max-width: 1000px) {
 
     .container #header {
-        margin-left: 40rem;
-        margin-bottom: 6rem;
-        height: 3rem;
-        padding-top: .7rem;
-        letter-spacing: 0.075em;
-        right: 1.5em;
-        text-transform: uppercase;
-        top: 0.75em;
+        margin-left: 55%;
     }
 
     #headbanner {
-        display: flex;
-        flex-direction: column;
         margin: 0% 26% 25%;
         height: 60%;
         background: rgba(55, 90, 66, 0.616);
         padding-top: 4.5rem;
-        font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
     }
 
 }
 
 
+@media (max-width: 800px) {
 
+    .container #header {
+        margin-left: 48%;
+    }
+
+    h1 {
+        font-size: 4rem;
+        font-weight: bolder;
+        margin-top: 7%;
+    }
+
+    #headbanner p {
+        padding: 10% 15%;
+        text-align: center;
+        font-size: 1.4rem;
+    }
+
+    .container #header {
+        margin-bottom: 20%;
+    }
+
+    #bodyp {
+        font-size: 1rem;
+    }
+
+}
