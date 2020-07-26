@@ -295,7 +295,6 @@ h1 {
 
     h1 {
         font-size: 4rem;
-        font-weight: bolder;
         margin-top: 7%;
     }
 
@@ -312,5 +311,57 @@ h1 {
     #bodyp {
         font-size: 1rem;
     }
+
+}
+
+@media (max-width: 500px) {
+
+    .container {
+        background-image: url("https://images.unsplash.com/photo-1503457574462-bd27054394c1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80");
+        height: 40rem;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .container #header {
+        margin-left: 0%;
+    }
+
+    #headbanner {
+        margin: 0% 15% 25%;
+        height: 60%;
+        margin-bottom: 35%;
+    }
+
+    h1 {
+        font-size: 3rem;
+        margin-top: 5%;
+    }
+
+    #headbanner p {
+        padding: 10% 15%;
+        font-size: 1rem;
+    }
+
+    #header {
+        margin-bottom: 50%;
+    }
+
+    .images {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #bodyp {
+        font-size: .8rem;
+    }
+
+
+    #img1, #img2, #img3, #img4 {
+        width: 60%;
+        margin-bottom: 5%;
+    }
+
 
 }
