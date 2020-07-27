@@ -341,7 +341,7 @@ h2 {
 
 .container2 {
     background-image: url("https://images.unsplash.com/photo-1508867743401-21ad68d105b1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2800&q=80");
-    height: 1900px;
+    height: 2100px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -372,6 +372,7 @@ h2 {
     text-transform: uppercase;
     top: 0.75em;
 }
+
 
 /* TEAM IMAGES */
 
@@ -420,6 +421,11 @@ h2 {
     text-align: center;
     width: 50%;
     margin-bottom: 5%;
+}
+
+#github1, #github2, #github3, #github4, #github5, #github6, #github7 {
+    margin-top: 2%;
+    width: 8%;
 }
 
 
