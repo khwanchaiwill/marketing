@@ -286,10 +286,10 @@ h2 {
 #footer {
     display: flex;
     justify-content: space-evenly;
-    background: #737574;
+    background: #636664;
     text-align: center;
     margin-top: 5%;
-    height: 10%;
+    height: 2%;
 }
 
 /* END MAIN PAGE */
@@ -367,6 +367,7 @@ h2 {
     width: 50%;
     border-radius: 50%;
     margin-bottom: 3%;
+    border: 2px solid black;
 }
 
 
@@ -454,6 +455,7 @@ h2 {
 .aboutpics {
     width: 50%;
     margin: 2% 0%;
+    border: 2px solid black;
 }
 
 /* END ABOUT DESIGN */
