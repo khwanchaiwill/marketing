@@ -256,6 +256,7 @@ h1 {
 #img1, #img2, #img3, #img4 {
     width: 90%;
     margin-bottom: 3%;
+    border: 2px solid black;
 }
 
 .img {
@@ -307,7 +308,7 @@ h2 {
 
 .container2 #signup {
     display: flex;
-    border: 1px solid rgb(172, 189, 178);
+    border: 1px  rgb(172, 189, 178);
     color: white;
     text-decoration: none;
     background: rgb(91, 123, 167);
@@ -339,12 +340,14 @@ h2 {
     background: rgba(166, 182, 202, 0.616);
     margin: 0% 15% 5%;
     padding-top: 3%;
+    /* box-shadow: 2.5px 2.5px 2.5px rgb(128, 136, 150); */
+    border: 1px solid rgba(0, 0, 0, 0.267);
 }
 
 .container2 h1 {
     font-size: 4rem;
     margin-bottom: 5%;
-    color: #636664;
+    color: #dbdddc;
 }
 
 .container2 h2 {
@@ -377,6 +380,83 @@ h2 {
 
 
 /* END TEAM DESIGN */
+
+
+/* ABOUT DESIGN */
+
+.container3 {
+    background-image: url("https://images.unsplash.com/photo-1554797589-7241bb691973?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2776&q=80");
+    height: 1500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* NAVIGATION BAR */
+
+.container3 #signup {
+    display: flex;
+    border: 1px solid rgb(184, 172, 189);
+    color: white;
+    text-decoration: none;
+    background: rgb(165, 79, 79);
+    width: 25%;
+    height: 2.5rem;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.container3 #header {
+    margin-left: 65%;
+    margin-bottom: 6%;
+    height: 3%;
+    padding-top: .7%;
+    letter-spacing: 0.075em;
+    right: 1.5em;
+    text-transform: uppercase;
+    top: 0.75em;
+}
+
+/* BODY DESIGN */
+
+.aboutsection {
+    background: rgba(240, 239, 239, 0.616);
+    margin: 0% 15% 5%;
+    padding-top: 3%;
+    /* box-shadow: 2.5px 2.5px 2.5px rgb(128, 136, 150); */
+    border: 1px solid rgba(0, 0, 0, 0.267);
+}
+
+.aboutsection h1{
+    font-family: 'Lato', sans-serif;
+    color: #434443;
+    margin-bottom: 4%;
+}
+
+.aboutbody {
+    margin: 0% 3% 5%;
+}
+
+.div1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.aboutbody p {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5rem;
+    /* width: 20%; */
+}
+
+.aboutpics {
+    width: 50%;
+    margin: 2% 0%;
+}
+
+/* END ABOUT DESIGN */
 
 
 
@@ -526,7 +606,9 @@ h2 {
     }
 }
 
-/* RESPONSIVE DEISGN TEAM */
+
+
+/* RESPONSIVE DESIGN TEAM */
 
 @media (max-width: 1000px) {
 
