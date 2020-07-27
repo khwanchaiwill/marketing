@@ -556,7 +556,6 @@ h2 {
     #headbanner {
         margin: 0% 15% 25%;
         height: 60%;
-        margin-bottom: 35%;
     }
 
     h1 {
@@ -604,7 +603,7 @@ h2 {
 
     #headbanner {
         height: 70%;
-        margin-bottom: 50%;
+        margin-bottom: 1%;
     }
 
     #img1, #img2, #img3, #img4 {
