@@ -284,13 +284,14 @@ h2 {
 
 /* FOOTER */
 
-.footer {
+#footer {
     display: flex;
     justify-content: space-evenly;
-    background: #707271;
+    background: rgba(144, 146, 145, 0.616);
+    padding-top: .5%;
     text-align: center;
     margin-top: 5%;
-    height: 10%;
+    height: 12%;
 }
 
 .social-buttons a{
@@ -328,7 +329,7 @@ h2 {
   
   .social-buttons a:hover i{
     background: linear-gradient(45deg,#22a6b3,#30336b);
-    /* -webkit-background-clip: text; */
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     transform: scale(2.2);
   }
@@ -431,7 +432,7 @@ h2 {
 
 /* FOOTER DESIGN */
 
-.footer3 {
+#footer3 {
     display: flex;
     justify-content: space-evenly;
     background: #707271;
@@ -441,6 +442,47 @@ h2 {
 }
 
 
+.social-buttons a{
+    display: inline-flex;
+    text-decoration: none;
+    font-size: 18px;
+    width: 60px;
+    height: 60px;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 0 8px;
+    margin-top: 3%;
+  }
+  
+  .social-buttons a::before{
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(45deg,#22a6b3,#30336b);
+    border-radius: 50%;
+    z-index: -1;
+    transition: 0.3s ease-in;
+  }
+  
+  .social-buttons a:hover::before{
+    transform: scale(0);
+  }
+  
+  .social-buttons a i{
+    transition: 0.3s ease-in;
+  }
+  
+  .social-buttons a:hover i{
+    background: linear-gradient(45deg,#22a6b3,#30336b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transform: scale(2.2);
+  }
+
+
 /* END TEAM DESIGN */
 
 
@@ -448,7 +490,7 @@ h2 {
 
 .container3 {
     background-image: url("https://images.unsplash.com/photo-1554797589-7241bb691973?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2776&q=80");
-    height: 1500px;
+    height: 1560px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -522,10 +564,10 @@ h2 {
 
 /* FOOTER */
 
-.footer2 {
+#footer2 {
     display: flex;
     justify-content: space-evenly;
-    background: #707271;
+    background: rgba(144, 146, 145, 0.616);
     text-align: center;
     margin-top: 5%;
     height: 5%;
