@@ -342,7 +342,7 @@ h2 {
 
 .container2 {
     background-image: url("https://images.unsplash.com/photo-1508867743401-21ad68d105b1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2800&q=80");
-    height: 2100px;
+    height: 2050px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -435,52 +435,11 @@ h2 {
 #footer3 {
     display: flex;
     justify-content: space-evenly;
-    background: #707271;
+    background: rgba(87, 85, 85, 0.678);
     text-align: center;
     margin-top: 0%;
-    height: 10%;
+    height: 5rem;
 }
-
-
-.social-buttons a{
-    display: inline-flex;
-    text-decoration: none;
-    font-size: 18px;
-    width: 60px;
-    height: 60px;
-    color: #fff;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    margin: 0 8px;
-    margin-top: 3%;
-  }
-  
-  .social-buttons a::before{
-    content: "";
-    position: absolute;
-    width: 60px;
-    height: 60px;
-    background: linear-gradient(45deg,#22a6b3,#30336b);
-    border-radius: 50%;
-    z-index: -1;
-    transition: 0.3s ease-in;
-  }
-  
-  .social-buttons a:hover::before{
-    transform: scale(0);
-  }
-  
-  .social-buttons a i{
-    transition: 0.3s ease-in;
-  }
-  
-  .social-buttons a:hover i{
-    background: linear-gradient(45deg,#22a6b3,#30336b);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    transform: scale(2.2);
-  }
 
 
 /* END TEAM DESIGN */
@@ -490,7 +449,7 @@ h2 {
 
 .container3 {
     background-image: url("https://images.unsplash.com/photo-1554797589-7241bb691973?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2776&q=80");
-    height: 1560px;
+    height: 1480px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -567,12 +526,11 @@ h2 {
 #footer2 {
     display: flex;
     justify-content: space-evenly;
-    background: rgba(144, 146, 145, 0.616);
+    background: rgba(87, 85, 85, 0.678);
     text-align: center;
-    margin-top: 5%;
-    height: 5%;
+    margin-top: 0%;
+    height: 5rem;
 }
-
 
 /* END ABOUT DESIGN */
 
@@ -612,7 +570,7 @@ h2 {
     }
 
     #footer {
-        height: 8%;
+        height: 13%;
     }
 
 }
@@ -670,7 +628,7 @@ h2 {
     }
 
     #headbanner {
-        margin: 0% 15% 25%;
+        margin: 0% 15% 35%;
         height: 60%;
     }
 
@@ -707,6 +665,26 @@ h2 {
         margin-bottom: 5%;
     }
 
+    .footer {
+        margin-top: 3%;
+    }
+
+    .social-buttons a{
+        font-size: 18px;
+        width: 40px;
+        height: 40px;
+        margin: 0 8px;
+        margin-top: 5%;
+        /* justify-content: space-between; */
+      }
+
+      .social-buttons a::before{
+        display: inline-block;
+        content: "";
+        width: 40px;
+        height: 40px;
+        background: linear-gradient(45deg,#22a6b3,#30336b);
+      }
 
 }
 
@@ -740,7 +718,7 @@ h2 {
 @media (max-width: 1000px) {
 
     .container2 {
-        height: 95rem;
+        height: 100rem;
     }
 
 }
@@ -757,7 +735,7 @@ h2 {
     }
 
     .container2 {
-        height: 76rem;
+        height: 80rem;
     }
 
 }
@@ -766,7 +744,7 @@ h2 {
 @media (max-width: 500px) {
 
     .container2 {
-        height: 123rem;
+        height: 135rem;
     }
 
     .container2 #header {
@@ -824,7 +802,7 @@ h2 {
 
 @media (max-width: 1000px) {
     .container3 {
-        height: 75rem;
+        height: 71rem;
     }
 
     .aboutbody p {
@@ -837,7 +815,7 @@ h2 {
 @media (max-width: 800px) {
 
     .container3 {
-        height: 55rem;
+        height: 51.9rem;
     }
 
     .container3 #header {
@@ -858,7 +836,7 @@ h2 {
 @media (max-width: 500px) {
     
     .container3 {
-        height: 75rem;
+        height: 71.5rem;
     }
 
     .container3 #header {
