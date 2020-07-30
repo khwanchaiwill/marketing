@@ -3,9 +3,11 @@
 
 <head>
     <link rel="stylesheet" type="text/css" href="master.css">
+    <link rel="stylesheet" type="js.js" href="javascript.js">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Expat Project</title>
 </head>
 
@@ -15,18 +17,24 @@
         <div class="container">
         <header id="header">
             <nav id="nav">
-                <a id="welcome" href="index.html">Welcome</a>
+                <a id="welcome" title="Welcome" href="index.html">Welcome</a>
 
                 <div class="dropdown">
                     <span id="menu">Menu</span>
                     <div class="dropdown-content">
-                        <a href="about.html">About</a>
+                        <a title="About" href="about.html">About</a>
                         <br>
                         <br>
-                        <a href="team.html">Team</a>
+                        <a id="teamnav" title="Team" href="team.html">Team</a>
                     </div>
                 </div>
-                <a href="https://expat-journal-fawn.vercel.app/login" id="signup">Login</a>
+                <a href="https://expat-journal-fawn.vercel.app/login" id="signup" title="Login">Login</a>
+
+                <!-- javascript  -->
+
+                <!-- <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                  </a> -->
 
             </nav>
         </header>
@@ -35,7 +43,7 @@
             <h1>EXPATS</h1>
             <p>The <span class="strong">perfect</span> place to store all your travel memories.</p>
             <ul class="buttons stacked">
-                <li><a href="https://expat-journal-fawn.vercel.app/signup" class="explore">Sign Up</a></li>
+                <li><a href="https://expat-journal-fawn.vercel.app/signup" class="explore" title="Sign_Up">Sign Up</a></li>
             </ul>
         </section>
 
@@ -83,10 +91,10 @@
         <footer id="footer">
 
             <div class="social-buttons">
-                <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
-                <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
-                <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
-                <a href="https://www.github.com/" target="_blank"><i class="fab fa-github"></i></a>
+                <a title="Opens Facebook in a new tab." href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a title="Opens Twitter in a new tab." href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a title="Opens Instagram in a new tab." href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a title="Opens Github in a new tab."href="https://www.github.com/" target="_blank"><i class="fab fa-github"></i></a>
             </div>
     
         </footer>
