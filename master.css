@@ -382,7 +382,7 @@ h2 {
     flex-wrap: wrap;
     align-content: space-around;
     justify-content: center;
-    background: rgba(166, 182, 202, 0.616);
+    background: rgba(88, 100, 116, 0.616);
     margin: 0% 15% 5%;
     padding-top: 3%;
     /* box-shadow: 2.5px 2.5px 2.5px rgb(128, 136, 150); */
@@ -460,7 +460,7 @@ h2 {
 
 .container3 #signup {
     display: flex;
-    border: 1px solid rgb(184, 172, 189);
+    border: 1px solid rgb(143, 143, 143);
     color: white;
     text-decoration: none;
     background: rgb(173, 117, 44);
@@ -485,7 +485,7 @@ h2 {
 /* BODY DESIGN */
 
 .aboutsection {
-    background: rgba(240, 239, 239, 0.616);
+    background: rgba(175, 172, 172, 0.616);
     margin: 0% 15% 5%;
     padding-top: 3%;
     /* box-shadow: 2.5px 2.5px 2.5px rgb(128, 136, 150); */
